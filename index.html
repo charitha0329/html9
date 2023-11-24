@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+    <h1 class="head1">meter to centimetre</h1>
+    <input type="text" id="a">
+    <button class="con"  type="button" onclick="convert()">convert</button>
+    <h4 id="m"></h4>
+    <img class="image" src="https://th.bing.com/th/id/R.538ff5cb0d1db4e42987ebaa2c1e4ee0?rik=7HBPM%2bmcptlsQg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fRiA%2fEd9%2fRiAEd9EdT.png&ehk=RMBoinv6tX2%2bQ1y9cpOmH6XfYnqwNCd%2bhgwsRS%2b1TGY%3d&risl=&pid=ImgRaw&r=0" alt="">
+    <script>h1 
+        function convert(){
+            let c=document.querySelector("#a").value;
+            let d=document.querySelector("#m")
+            d.innerHTML=c*100
+            
+            
+        }
+    </script>                                
+        <h1 class="head2">centimetre to meter</h1>
+<input type="text" id="b">
+        <button class="con1" type="button" onclick="reset()">convert</button>
+        <h4 id="cm"></h4>
+        <script>
+            function reset(){
+                let e=document.querySelector("#b").value;
+                let f=document.querySelector("#cm")
+                f.innerHTML=e*0.01
+
+            }
+            </script>
+               <h1 class="head3">inch to feet</h1>
+               <input type="text" id="g">
+               <button class="con2" type="button" onclick="cherry()">convert</button>
+               <h4 id="inch"></h4>
+           
+               <script>
+                   function cherry(){
+                       let h=document.querySelector("#g").value;
+                       let i=document.querySelector("#inch")
+                       i.innerHTML=h/12
+                       
+                       
+                   }
+               </script>
+</div>
+
+</body>
+</html>

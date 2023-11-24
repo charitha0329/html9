@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/notebook-green-math-ruler-cute-education-powerpoint-background_c60b6f87b6__960_540.jpg);
+    background-size:contain;
+    /* border: 1px solid purple; */
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    margin-top: 145px;
+    border-radius: 13px;
+    box-shadow:5px 5px 5px 5px rgb(175, 151, 151);
+    /* position: relative; */
+}
+.main{
+    background-color: rgb(237, 191, 203);
+    height: 400px;
+    width: 500px;
+    margin-top: -23px;
+    border-radius: 13px;
+    /* position: relative; */
+}
+.image{
+    /* border: 1px solid white; */
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin-top: -100px;
+    border-radius: 13px;
+    /* position:relative; */
+}
+.head1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:chocolate;
+}
+.head2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+.head3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.con{
+    background:linear-gradient(rgb(239, 145, 145),rgb(160, 160, 230));
+}
+.con1{
+    background:linear-gradient(rgb(239, 145, 145),rgb(160, 160, 230));
+}
+.con2{
+    background:linear-gradient(rgb(239, 145, 145),rgb(160, 160, 230));
+}
+.head1:hover{
+    color: yellow;
+}
+.head2:hover{
+    color: green;
+}
+.head3:hover{
+    color:orangered;
+}
